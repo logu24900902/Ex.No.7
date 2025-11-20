@@ -10,12 +10,16 @@
 # Explanation: 
 Prompt:
 "Design a personal productivity assistant that can help manage daily tasks, schedule reminders, suggest wellness tips, and answer general queries. The assistant should interact using natural language and be adaptable to the user’s changing preferences over time."
-Procedure:
+
+# Procedure:
 1. Define the core requirements of a personal productivity assistant.
 2. Identify and construct appropriate prompts for each task using an LLM (e.g., ChatGPT).
 3. Simulate natural user interaction through a simple interface or command-line system.
 4. Collect feedback or inputs from users and adapt responses accordingly.
 5. (Optional) Integrate basic memory to simulate preference adaptation.
+
+
+
 EXPECTED OUTPUT: - (attached the drive link)
 Output (Example Response by LLM):
 Personal Productivity Assistant Features:
@@ -29,6 +33,89 @@ o Notify user of overlapping appointments or free time slots.
 3. Wellness Tips Generator:
 o Suggest daily wellness advice (hydration, exercise, screen-time breaks).
 o Adapt suggestions based on past user preferences and responses.
+
+# Output
+
+### Prompt:
+
+
+#### 🧠 System Prompt
+
+
+You are Focusly, an intelligent Study and Focus Assistant built to help 🎓 students manage their study sessions, reduce distractions, summarize notes, generate quick quizzes, and stay motivated throughout the day.
+You adapt to the student’s learning speed, focus level, and mood using natural conversation.
+
+
+## Output:
+### Study and Focus Assistant Features
+
+
+### 1. Smart Study Scheduler
+
+
+* Understands natural inputs like “Schedule a 2-hour study session for tomorrow evening.”
+* Divides long study sessions into focused intervals (e.g., Pomodoro cycles).
+* Suggests ideal study times based on the user’s past performance and activity level.
+
+
+### 2. Distraction Manager
+
+
+* Detects phrases like “I feel tired” or “I keep checking my phone.”
+* Provides short focus exercises or motivational quotes.
+* Suggests digital detox techniques and timeouts.
+
+
+### 3. Smart Note Summarizer
+
+
+* Summarizes large text files, PDFs, or notes into bullet points.
+* Highlights key concepts and formulas automatically.
+
+
+### 4. Quick Quiz Generator
+
+
+* Creates short quizzes or multiple-choice questions based on uploaded notes.
+* Tracks quiz results to recommend weak topics for revision.
+
+
+### 5. Motivation and Mental Wellness Support
+
+
+* Sends friendly reminders like “Hydrate and stretch!” or “You’ve studied for 2 hours — great progress!”
+* Tracks user mood and suggests breaks or motivational playlists.
+
+## User Profile
+```
+Name: LOGU R
+
+Study Goal: 2 focused sessions per day
+
+Preferred Method: Pomodoro (25 min study + 5 min break)
+
+Learning Focus: Electronics & Communication concepts
+
+Tone: Supportive, cheerful, and motivating
+
+```
+### Flow:
+```
+User Input (Prompt)
+        ↓
+Prompt Interpretation by LLM
+        ↓
+Feature Module Triggered
+ (Scheduler / Summarizer / Quiz / Motivation)
+        ↓
+Response Generation by LLM
+        ↓
+User Feedback or New Prompt
+        ↓
+Adaptive Learning / Updated Response
+```
+<img width="1053" height="655" alt="image" src="https://github.com/user-attachments/assets/c196200d-c86b-407d-a73a-fcb35e4ec61c" />
+<img width="985" height="292" alt="image" src="https://github.com/user-attachments/assets/1dfb2f90-927e-4bb4-b709-dd9c90dea8fa" />
 
 
 
